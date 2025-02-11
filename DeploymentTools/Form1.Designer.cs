@@ -186,7 +186,7 @@ namespace DeploymentTools
         {
             string sourceFolder = txtSourceFolder.Text;
             string targetFolder = txtTargetFolder.Text;
-            DateTime selectedDate = dateTimePicker.Value;
+            DateTime selectedDate = dateTimePicker.Value.Date;
 
             if (string.IsNullOrEmpty(sourceFolder) || string.IsNullOrEmpty(targetFolder))
             {
