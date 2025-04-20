@@ -36,7 +36,7 @@ namespace DeploymentTools
         }
 
         private readonly static List<string> skipDirList = new List<string> { "App_Logs", "Logs", "Export", "UploadFiles" };
-        private readonly static List<string> skipFilePreList = new List<string> { "log" };
+        private readonly static List<string> skipFilePreList = new List<string> { "log", "persistent" };
 
         #region Windows 窗体设计器生成的代码
 
